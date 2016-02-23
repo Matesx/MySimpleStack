@@ -17,7 +17,7 @@ public class SimpleStackImpl implements SimpleStack{
 
     @Override
     public int getSize() {
-        wrappedStack.size();
+        return wrappedStack.size();
     }
 
     @Override
